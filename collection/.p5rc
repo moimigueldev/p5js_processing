@@ -9,6 +9,7 @@
     "quad_tree",
     "a_star",
     "test",
-    "a_star_pt2"
+    "a_star_pt2",
+    "maze_generator_pt2"
   ]
 }
