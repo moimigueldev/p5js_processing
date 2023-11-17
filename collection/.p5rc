@@ -10,6 +10,8 @@
     "a_star",
     "test",
     "a_star_pt2",
-    "maze_generator_pt2"
+    "maze_generator_pt2",
+    "fractal_tree",
+    "grid"
   ]
 }

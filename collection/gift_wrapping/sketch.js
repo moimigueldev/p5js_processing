@@ -11,8 +11,8 @@ let index = 0;
 let nextVertex;
 
 function setup() {
-  createCanvas(500, 500);
-  for (let index = 0; index < 10; index++) {
+  createCanvas(800, 800);
+  for (let index = 0; index < 20; index++) {
     points.push(
       createVector(
         random(buffer, width - buffer),
