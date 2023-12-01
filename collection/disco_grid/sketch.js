@@ -2,7 +2,7 @@ const sizes = [];
 
 let cols;
 let rows;
-let size = 20;
+let size = 60;
 let xOff = 0;
 let yOff = 0;
 let zOff = 0;
@@ -13,7 +13,7 @@ function setup() {
   cols = width / size;
   rows = height / size;
   rectMode(CENTER);
-  frameRate(30);
+  frameRate(20);
 }
 
 function draw() {
@@ -23,12 +23,12 @@ function draw() {
     yOff = 0;
     sizes[i] = [];
     for (let j = 0; j < rows; j++) {
-      sizes[i][j] = map(noise(xOff, yOff, zOff), 0, 1, 0, size * 1.7);
+      sizes[i][j] = map(noise(xOff, yOff, zOff), 0, 1, 0, size * 1.1);
       yOff += inc;
 
       let r = noise(zOff) * 255;
-      let g = noise(zOff + 15) * 255;
-      let b = noise(zOff + 30) * 255;
+      let g = noise(zOff) * 255;
+      let b = noise(zOff) * 255;
 
       fill(r, g, b);
       noStroke();

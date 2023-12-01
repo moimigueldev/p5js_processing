@@ -13,6 +13,7 @@
     "maze_generator_pt2",
     "fractal_tree",
     "grid",
-    "disco_grid"
+    "disco_grid",
+    "circular_grid"
   ]
 }
